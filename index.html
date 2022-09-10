@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="fixed top-0 left-0 w-full flex items-center z-10 bg-white backdrop-blur-lg">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="" class="font-bold text-primary text-lg block py-6">Difhaels</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="humburger" class="block absolute right-4 lg:hidden">
+              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] right-4 w-full top-full lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kontak</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua👊, Saya <span class="block text-4xl text-dark">Agung Saputra</span></h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5">Student & Gamer</h2>
+            <p class="font-medium text-slate-400 mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate at accusamus nesciunt iste ipsam!</p>
+
+            <a href="#" class="text-base bg-primary font-semibold rounded-full py-3 px-8 text-white hover:shadow-lg hover:bg-teal-600">Hubungi Saya</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative">
+              <img src="img/hero.png" alt="rem" class="max-w-full mx-auto" />
+              <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#12B8A6"
+                    d="M26.9,-35.4C38.4,-28.6,53.8,-25.5,56,-18.3C58.2,-11.1,47.2,0.4,44.7,16.5C42.1,32.6,48.1,53.4,42,58C36,62.5,18,50.7,2.5,47.3C-13,43.9,-26,48.8,-37,45.9C-48,42.9,-57,32.2,-62.9,19.2C-68.8,6.3,-71.5,-8.9,-64.9,-18.5C-58.3,-28.1,-42.2,-32.1,-29.9,-38.6C-17.5,-45.1,-8.7,-54.2,-0.5,-53.5C7.7,-52.7,15.3,-42.2,26.9,-35.4Z"
+                    transform="translate(100 100) scale(1.1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- about start -->
+    <section id="about" class="py-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary mb-3">Tentang Saya</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl">Lorem ipsum dolor sit, amet consectet</h2>
+            <p class="font-medium text-base text-slate-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam itaque molestiae exercitationem consequatur suscipit vel. Recusandae.</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-semibold text-dark text-2xl">Mari berteman</h3>
+            <p class="font-medium text-base mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste aspernatur recusandae dolorem. Itaque earum amet minus recusandae? Iste, mollitia nam!</p>
+            <div class="flex items-center">
+              <!-- youtube -->
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:text-primary">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+              <!-- youtube -->
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:text-primary">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+              <!-- youtube -->
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:text-primary">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+              <!-- youtube -->
+              <a href="" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border hover:text-primary">
+                <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- portfolio start -->
+    <section id="portfolio" class="bg-slate-300">
+      <div class="text-center">
+        <h4 class="font-bold uppercase text-primary pt-10">Portfolio</h4>
+        <h2 class="font-bold text-dark text-2xl">Projek Terbaru</h2>
+        <p class="font-medium text-base text-slate-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam itaque molestiae exercitationem consequatur suscipit vel. Recusandae.</p>
+      </div>
+      <div class="lg:gap-10 lg:flex justify-center">
+        <div class="px-7 mt-10 lg:px-0 lg:max-w-lg">
+          <img src="img/project/landingPage.png" alt="landing page 1" class="rounded-lg" />
+          <h1 class="text-dark text-base font-bold mt-3">Website Landing Page (Difhaels 2k22)</h1>
+          <p class="text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, fuga.</p>
+        </div>
+
+        <div class="px-7 mt-7 lg:px-0 lg:mt-10 lg:max-w-lg">
+          <img src="img/project/bisnis.png" alt="bisnis 1" class="rounded-lg" />
+          <h1 class="text-dark text-base font-bold mt-3">Website Bisnis (Difhaels 2k22)</h1>
+          <p class="text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, fuga.</p>
+        </div>
+      </div>
+      <div class="lg:gap-10 lg:flex justify-center pb-16">
+        <div class="px-7 mt-10 lg:px-0 lg:max-w-lg">
+          <img src="img/project/e-commerce.png" alt="e-commerce 1" class="rounded-lg" />
+          <h1 class="text-dark text-base font-bold mt-3">Website E-commerce (Difhaels 2k22)</h1>
+          <p class="text-base text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, fuga.</p>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- kontak start -->
+    <section id="contact">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-primary pt-10">Kontak</h4>
+            <h2 class="font-bold text-dark text-2xl">Hubungi Kami</h2>
+            <p class="font-medium text-base text-slate-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam itaque molestiae exercitationem consequatur suscipit vel. Recusandae.</p>
+          </div>
+        </div> 
+          <form>
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+              <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-primary">Nama</label>
+                <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base font-bold text-primary">Email</label>
+              <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary">
+             </div>
+              <div class="w-full px-4 mb-8">
+              <label for="pesan" class="text-base font-bold text-primary">Pesan</label>
+              <textarea type="text" id="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary h-32  "></textarea>
+              </div>
+              <div class="w-full px-4">
+              <button class="text-white bg-primary py-3 w-full rounded-full hover:bg-teal-600">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section> 
+    <!-- kontak start --> 
+    <script src="/dist/js/script.js"></script>
+  </body>
+</html>
