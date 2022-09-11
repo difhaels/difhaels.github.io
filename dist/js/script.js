@@ -1,20 +1,19 @@
-// window.onscroll = function () {
-//   const header = document.querySelector("header");
-//   const navFixed = header.offsetTop;
+// navbar fixed
+window.onscroll = function () {
+  const header = document.querySelector("header");
+  const fixedNav = header.offsetTop;
 
-//   if (window.pageYOffset > navFixed) {
-//     header.classList.add("fixed");
-//     header.classList.add("z-[99]");
-//     header.classList.add("bg-red-500");
-//   } else {
-//     header.classList.remove("fixed");
-//     header.classList.remove("z-[99]");
-//     header.classList.remove("bg-red-500");
-//   }
-// };
+  if (window.pageYOffset > fixedNav) {
+    header.classList.add("navbar-fixed");
+  } else {
+    header.classList.remove("navbar-fixed");
+  }
+};
 
-const hamburger = document.getElementById("hamburger");
-const nav = document.getElementById("nav-menu");
+// Hamburger
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("#nav-menu");
 hamburger.addEventListener("click", function () {
-  nav.classList.toggle("hidden");
+  hamburger.classList.toggle("hamburger-active");
+  navMenu.classList.toggle("hidden");
 });

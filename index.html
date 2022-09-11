@@ -9,19 +9,21 @@
   </head>
   <body>
     <!-- header start -->
-    <header class="fixed top-0 left-0 w-full flex items-center z-10 bg-white backdrop-blur-lg">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
             <a href="" class="font-bold text-primary text-lg block py-6">Difhaels</a>
           </div>
+          <!-- mobile -->
           <div class="flex items-center px-4">
             <button id="hamburger" name="humburger" class="block absolute right-4 lg:hidden">
-              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
-              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
-              <span class="w-[30px] h-[2px] my-2 block bg-dark"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span> 
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
             </button>
 
+            <!-- desktop -->
             <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] right-4 w-full top-full lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
               <ul class="block lg:flex">
                 <li class="group">
