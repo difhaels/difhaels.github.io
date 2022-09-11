@@ -17,3 +17,7 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// kirim
+const kirim = document.querySelector("#kirim");
+kirim.addEventListener("click", () => alert("ups fitur itu belum tersedia 😋"));
