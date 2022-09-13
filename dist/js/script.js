@@ -39,3 +39,8 @@ form.addEventListener("submit", (e) => {
     .then((response) => console.log("Success!", response))
     .catch((error) => console.error("Error!", error.message));
 });
+
+// dark mode
+const darkMode = document.querySelector("#toggle");
+const html = document.querySelector("html");
+darkMode.addEventListener("click", () => (darkMode.checked ? html.classList.add("dark") : html.classList.remove("dark")));
