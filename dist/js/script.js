@@ -17,6 +17,14 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// klik diluar hamburger
+window.addEventListener("click", function (e) {
+  if (e.target != navMenu && e.target != hamburger) {
+    hamburger.classList.remove("hamburger-active");
+    navMenu.classList.add("hidden");
+  }
+});
 // submit
 const submit = document.querySelector("#kirim");
 submit.addEventListener("click", () => alert("Terkirim 👌"));
