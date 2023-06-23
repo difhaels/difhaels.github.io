@@ -905,6 +905,11 @@ video {
   padding-bottom: 7rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pr-12 {
   padding-right: 3rem;
 }
@@ -955,6 +960,14 @@ video {
 
 .pb-28 {
   padding-bottom: 7rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1269,6 +1282,34 @@ body {
 .dark .focus\:dark\:ring-\[\#E9A6A6\]:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(233 166 166 / var(--tw-ring-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .sm\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .sm\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .sm\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .sm\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .sm\:pb-24 {
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 768px) {
