@@ -8,284 +8,283 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio Agung Saputra</title>
   </head>
-  <body class="dark:bg-[#1F1D36] ">   
-    <!-- header start --> 
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 dark:bg-dark">
-      <div class="container"> 
-        <div class="flex items-center justify-between relative">
-          <div class="px-4">
-            <a href="#home" class="font-bold text-primary text-lg block py-6 dark:text-[#bb63a8] ">Difhaels</a>
-          </div>
-
-         
-          <div class="flex items-center px-4">
-            <!-- dark mode -->
-            <div class="flex justify-center pr-12 lg:pr-0">
-              <span class="text-sm mr-2 dark:text-slate-50">Light</span>
-              <input type="checkbox" id="toggle" class="hidden" />
-              <label for="toggle">
-                <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer dark:bg-slate-50">
-                  <div class="w-4 h-4 bg-slate-100 rounded-full toggle-circle dark:bg-dark"></div> 
-                </div>
-              </label>
-              <span class="text-sm ml-2 dark:text-slate-50">Dark</span> 
-              
+  <body class="dark:bg-[#1F1D36]">
+    <div id="div">
+      <!-- header start -->
+      <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent dark:bg-dark">
+        <div class="container">
+          <div class="relative flex items-center justify-between">
+            <div class="px-4">
+              <a href="#home" class="block py-6 text-lg font-bold text-primary dark:text-[#bb63a8]">Difhaels</a>
             </div>
-            
-            <!-- mobile -->
-            <button id="hamburger" name="humburger" class="block absolute right-4 lg:hidden">
-              <span class="hamburger-line transition duration-300 ease-in-out"></span> 
-              <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            </button>
 
-            <!-- desktop -->
-            <nav id="nav-menu" class="hidden absolute py-5 bg-slate-300 shadow-lg rounded-lg max-w-[250px] right-4 w-full top-full lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
-              <ul class="block lg:flex">
-                <li class="group">
-                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary lg:dark:text-[#bb63a8]">Beranda</a>
-                </li>
-                <li class="group">
-                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary lg:dark:text-[#bb63a8]">Tentang Saya</a>
-                </li>
-                <li class="group">
-                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary lg:dark:text-[#bb63a8]">Portfolio</a>
-                </li>
-                <li class="group">
-                  <a href="#contact " class="text-base
-                   text-dark py-2 mx-8 flex group-hover:text-primary lg:dark:text-[#bb63a8]">Kontak</a> 
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header end -->
-
-    <!-- hero start -->
-    <section id="home" class="pt-36">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl dark:text-[#E9A6A6]  ">Halo Semua👊, Saya <span class="block text-4xl text-dark dark:text-white ">Agung Saputra</span></h1>
-            <h2 class="font-medium text-slate-500 text-lg mb-5 dark:text-[#bb63a8] ">Student & Gamer</h2>
-            <p class="font-medium text-slate-400 mb-10 leading-relaxed">Mempelajari bidang front-end developer, tertarik dibidang back-end developer dan bermain beberapa game kompetitif diwaktu luang</p>
- 
-            <a href="https://wa.me/+62895337305533" target="_blank" class="text-base bg-primary font-semibold rounded-full py-3 px-8 text-white hover:shadow-lg hover:bg-teal-600 dark:bg-[#864879] hover:dark:bg-[#653a5c] ">Hubungi Saya</a>
-          </div>
-          <div class="w-full self-end px-4 pt-14 lg:w-1/2">
-            <div class="mt-10 relative">
-              <img src="img/hero.png" alt="rem" class="max-w-full mx-auto" />
-              <span class="absolute -bottom-[75px] -z-10 left-1/2 -translate-x-1/2">
-                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" > 
-                  <path
-                    fill="#12b8a6" class="dark:fill-[#864879]"
-                    d="M26.9,-35.4C38.4,-28.6,53.8,-25.5,56,-18.3C58.2,-11.1,47.2,0.4,44.7,16.5C42.1,32.6,48.1,53.4,42,58C36,62.5,18,50.7,2.5,47.3C-13,43.9,-26,48.8,-37,45.9C-48,42.9,-57,32.2,-62.9,19.2C-68.8,6.3,-71.5,-8.9,-64.9,-18.5C-58.3,-28.1,-42.2,-32.1,-29.9,-38.6C-17.5,-45.1,-8.7,-54.2,-0.5,-53.5C7.7,-52.7,15.3,-42.2,26.9,-35.4Z"
-                    transform="translate(100 100) scale(1.1)"
-                  />
-                </svg>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- hero end -->
-
-    <!-- about start --> 
-    <section id="about" class="py-36">
-      <div class="container">
-        <div class="flex flex-wrap" data-aos="fade-up">
-          <div class="w-full px-4 mb-10 lg:w-1/2">
-            <h4 class="font-bold uppercase text-primary mb-3 dark:text-[#864879] ">Tentang Saya</h4>
-            <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl dark:text-[#E9A6A6]">Profil Singkat</h2>
-            <p class="font-medium text-base text-slate-500 dark:text-slate-400 ">Umur 18 tahun dan aktif sebagai mahasiswa semester 1 diuniversitas nasional jurusan sistem informasi</p>
-          </div>
-          <div class="w-full px-4 lg:w-1/2" data-aos="fade-up">
-            <h3 class="font-semibold text-dark text-2xl dark:text-[#E9A6A6]">Mari berteman</h3>
-            <p class="font-medium text-base mb-4 dark:text-slate-400">Dan dibawah sini adalah sosisal media saya</p>
-            <div class="flex items-center">
-              <!-- whatsapp -->
-              <a
-                href="https://wa.me/+62895337305533"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:bg-[#E9A6A6] dark:hover:border-[#E9A6A6] " 
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>WhatsApp</title>
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-                </svg>
-              </a>
-  
-              <!-- Instagram -->
-              <a
-                href="https://www.instagram.com/difhaels/?hl=id"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:bg-[#E9A6A6] dark:hover:border-[#E9A6A6]"
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Instagram</title>
-                  <path
-                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
-                  />
-                </svg>
-              </a>
-  
-              <!-- facebook -->
-              <a
-                href="https://www.facebook.com/profile.php?id=100038309832831"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:bg-[#E9A6A6] dark:hover:border-[#E9A6A6]"
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Facebook</title>
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about end -->
-
-    <!-- portfolio start -->
-    <section id="portfolio" class="bg-slate-300 dark:bg-[#3F3351] pt-28">
-      <div class="container"> 
-        <div class="text-center px-4 " data-aos="fade-up">
-          <h4 class="font-bold uppercase text-primary pt-10 dark:text-[#E9A6A6]">Portfolio</h4>
-          <h2 class="font-bold text-dark text-2xl dark:text-white">Projek Terbaru</h2>
-          <p class="font-medium text-base text-slate-500 dark:text-slate-400">Beberapa project yang saya buat, tentunya belum 100% dan akan diperbaharui nanti</p>
-        </div>
-        <div class="lg:gap-10 lg:flex justify-center">
-          <div class="px-7 mt-10 lg:px-0 lg:max-w-lg">
-            <div data-aos="flip-right" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"> 
-              <img src="img/project/landingPage.png" alt="landing page 1" class="rounded-lg" />
-            </div>  
-            <h1 class="text-dark text-base font-bold mt-3 dark:text-[#E9A6A6]">Website Landing Page (Difhaels 2k22)</h1>
-            <p class="text-base text-slate-500 dark:text-slate-400">Portfolio landing page, <a href="https://difhaels.github.io/p-lapa-1122/" target="_blank" class="text-sky-500">lihat langsung</a></p>
-          </div>
-  
-          <div class="px-7 mt-7 lg:px-0 lg:mt-10 lg:max-w-lg">
-            <div data-aos="flip-left" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
-              <img src="img/project/bisnis.png" alt="bisnis 1" class="rounded-lg" />
-            </div>
-            <h1 class="text-dark text-base font-bold mt-3 dark:text-[#E9A6A6]">Website Bisnis (Difhaels 2k22)</h1>
-            <p class="text-base text-slate-500 dark:text-slate-400">Website bisnis jasa (tidak asli), <a href="https://difhaels.github.io/b-dete-0522/" target="_blank" class="text-sky-500">lihat langsung</a></p>
-          </div>
-        </div>
-        <div class="lg:gap-10 lg:flex justify-center pb-16">
-          <div class="px-7 mt-10 lg:px-0 lg:max-w-lg">
-            <div data-aos="flip-down" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
-              <img src="img/project/e-commerce.png" alt="e-commerce 1" class="rounded-lg" />
-            </div>
-            <h1 class="text-dark text-base font-bold mt-3 dark:text-[#E9A6A6]">Website E-commerce (Difhaels 2k22)</h1>
-            <p class="text-base text-slate-500 dark:text-slate-400">Website e-commerce mirip codashop, <a href="https://difhaels.github.io/e-coda-0922/" target="_blank" class="text-sky-500">lihat langsung</a></p>
-          </div>
-        </div>
-      </div>
-    </section> 
-    <!-- portfolio end -->
-
-    <!-- kontak start --> 
-    <section id="contact" class="py-28"> 
-      <div class="container" data-aos="zoom-in" data-aos-easing="linear"
-      data-aos-duration="1500">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-bold uppercase text-primary pt-10 dark:text-[#E9A6A6]">Kontak</h4>
-            <h2 class="font-bold text-dark text-2xl dark:text-white">Hubungi Saya</h2>
-            <p class="font-medium text-base text-slate-500 dark:text-slate-400">Jika anda memiliki pesan atau saran silahkan hubungi saya</p>
-          </div>
-        </div> 
-          <form name="difhaels-contact">
-            <div class="w-full lg:w-2/3 lg:mx-auto">
-              <div class="w-full px-4 mb-8">
-                <label for="name" class="text-base font-bold text-primary dark:text-[#E9A6A6]">Nama</label>
-                <input type="text" id="name" name="nama" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary dark:focus:ring-[#E9A6A6] ">
+            <div class="flex items-center px-4">
+              <!-- dark mode -->
+              <div class="flex justify-center pr-12 lg:pr-0">
+                <span class="mr-2 text-sm dark:text-slate-50">Light</span>
+                <input type="checkbox" id="toggle" class="hidden" />
+                <label for="toggle">
+                  <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1 dark:bg-slate-50">
+                    <div class="toggle-circle h-4 w-4 rounded-full bg-slate-100 dark:bg-dark"></div>
+                  </div>
+                </label>
+                <span class="ml-2 text-sm dark:text-slate-50">Dark</span>
               </div>
-              <div class="w-full px-4 mb-8">
+
+              <!-- mobile -->
+              <button id="hamburger" name="humburger" class="absolute right-4 block lg:hidden">
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              </button>
+
+              <!-- desktop -->
+              <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-slate-300 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:bg-transparent lg:shadow-none">
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-[#bb63a8]">Beranda</a>
+                  </li>
+                  <li class="group">
+                    <a href="#about" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-[#bb63a8]">Tentang Saya</a>
+                  </li>
+                  <li class="group">
+                    <a href="#portfolio" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-[#bb63a8]">Portfolio</a>
+                  </li>
+                  <li class="group">
+                    <a href="#contact " class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-[#bb63a8]">Kontak</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- hero start -->
+      <section id="home" class="pt-36">
+        <div class="container">
+          <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+              <h1 class="text-base font-semibold text-primary dark:text-[#E9A6A6] md:text-xl">Halo Semua👊, Saya <span class="block text-4xl text-dark dark:text-white">Agung Saputra</span></h1>
+              <h2 class="mb-5 text-lg font-medium text-slate-500 dark:text-[#bb63a8]">Student & Gamer</h2>
+              <p class="mb-10 font-medium leading-relaxed text-slate-400">Mempelajari bidang front-end developer, tertarik dibidang back-end developer dan bermain beberapa game kompetitif diwaktu luang</p>
+
+              <a href="https://wa.me/+62895337305533" target="_blank" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white hover:bg-teal-600 hover:shadow-lg dark:bg-[#864879] hover:dark:bg-[#653a5c]">Hubungi Saya</a>
+            </div>
+            <div class="w-full self-end px-4 pt-14 lg:w-1/2">
+              <div class="relative mt-10">
+                <img src="img/hero.png" alt="rem" class="mx-auto max-w-full" />
+                <span class="absolute -bottom-[75px] left-1/2 -z-10 -translate-x-1/2">
+                  <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill="#12b8a6"
+                      class="dark:fill-[#864879]"
+                      d="M26.9,-35.4C38.4,-28.6,53.8,-25.5,56,-18.3C58.2,-11.1,47.2,0.4,44.7,16.5C42.1,32.6,48.1,53.4,42,58C36,62.5,18,50.7,2.5,47.3C-13,43.9,-26,48.8,-37,45.9C-48,42.9,-57,32.2,-62.9,19.2C-68.8,6.3,-71.5,-8.9,-64.9,-18.5C-58.3,-28.1,-42.2,-32.1,-29.9,-38.6C-17.5,-45.1,-8.7,-54.2,-0.5,-53.5C7.7,-52.7,15.3,-42.2,26.9,-35.4Z"
+                      transform="translate(100 100) scale(1.1)"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero end -->
+
+      <!-- about start -->
+      <section id="about" class="py-36">
+        <div class="container">
+          <div class="flex flex-wrap" data-aos="fade-up">
+            <div class="mb-10 w-full px-4 lg:w-1/2">
+              <h4 class="mb-3 font-bold uppercase text-primary dark:text-[#864879]">Tentang Saya</h4>
+              <h2 class="mb-5 max-w-xl text-3xl font-bold text-dark dark:text-[#E9A6A6]">Profil Singkat</h2>
+              <p class="text-base font-medium text-slate-500 dark:text-slate-400">Umur 18 tahun dan aktif sebagai mahasiswa semester 1 diuniversitas nasional jurusan sistem informasi</p>
+            </div>
+            <div class="w-full px-4 lg:w-1/2" data-aos="fade-up">
+              <h3 class="text-2xl font-semibold text-dark dark:text-[#E9A6A6]">Mari berteman</h3>
+              <p class="mb-4 text-base font-medium dark:text-slate-400">Dan dibawah sini adalah sosisal media saya</p>
+              <div class="flex items-center">
+                <!-- whatsapp -->
+                <a
+                  href="https://wa.me/+62895337305533"
+                  target="_blank"
+                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:border-[#E9A6A6] dark:hover:bg-[#E9A6A6]"
+                >
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>WhatsApp</title>
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                    />
+                  </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a
+                  href="https://www.instagram.com/difhaels/?hl=id"
+                  target="_blank"
+                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:border-[#E9A6A6] dark:hover:bg-[#E9A6A6]"
+                >
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Instagram</title>
+                    <path
+                      d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                    />
+                  </svg>
+                </a>
+
+                <!-- facebook -->
+                <a
+                  href="https://www.facebook.com/profile.php?id=100038309832831"
+                  target="_blank"
+                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-[#864879] dark:text-[#864879] dark:hover:border-[#E9A6A6] dark:hover:bg-[#E9A6A6]"
+                >
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Facebook</title>
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about end -->
+
+      <!-- portfolio start -->
+      <section id="portfolio" class="bg-slate-300 pt-28 dark:bg-[#3F3351]">
+        <div class="container">
+          <div class="px-4 text-center" data-aos="fade-up">
+            <h4 class="pt-10 font-bold uppercase text-primary dark:text-[#E9A6A6]">Portfolio</h4>
+            <h2 class="text-2xl font-bold text-dark dark:text-white">Projek Terbaru</h2>
+            <p class="text-base font-medium text-slate-500 dark:text-slate-400">Beberapa project yang saya buat, tentunya belum 100% dan akan diperbaharui nanti</p>
+          </div>
+          
+          <div class="justify-center lg:flex lg:gap-10">
+            <div class="mt-10 px-7 lg:max-w-lg lg:px-0">
+              <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="img/project/landingPage.png" alt="landing page 1" class="rounded-lg" />
+              </div>
+              <h1 class="mt-3 text-base font-bold text-dark dark:text-[#E9A6A6]">Website Landing Page (Difhaels 2k22)</h1>
+              <p class="text-base text-slate-500 dark:text-slate-400">Portfolio landing page, <a href="https://difhaels.github.io/p-lapa-1122/" target="_blank" class="text-sky-500">lihat langsung</a></p>
+            </div>
+
+            <div class="mt-7 px-7 lg:mt-10 lg:max-w-lg lg:px-0">
+              <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="img/project/bisnis.png" alt="bisnis 1" class="rounded-lg" />
+              </div>
+              <h1 class="mt-3 text-base font-bold text-dark dark:text-[#E9A6A6]">Website Bisnis (Difhaels 2k22)</h1>
+              <p class="text-base text-slate-500 dark:text-slate-400">Website bisnis jasa (tidak asli), <a href="https://difhaels.github.io/b-dete-0522/" target="_blank" class="text-sky-500">lihat langsung</a></p>
+            </div>
+          </div>
+
+          <div class="justify-center pb-16 lg:flex lg:gap-10">
+            <div class="mt-10 px-7 lg:max-w-lg lg:px-0">
+              <div data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="img/project/e-commerce.png" alt="e-commerce 1" class="rounded-lg" />
+              </div>
+              <h1 class="mt-3 text-base font-bold text-dark dark:text-[#E9A6A6]">Website E-commerce (Difhaels 2k22)</h1>
+              <p class="text-base text-slate-500 dark:text-slate-400">Website e-commerce mirip codashop, <a href="https://difhaels.github.io/e-coda-0922/" target="_blank" class="text-sky-500">lihat langsung</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio end -->
+
+      <!-- kontak start -->
+      <section id="contact" class="py-28">
+        <div class="container" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-16 max-w-xl text-center">
+              <h4 class="pt-10 font-bold uppercase text-primary dark:text-[#E9A6A6]">Kontak</h4>
+              <h2 class="text-2xl font-bold text-dark dark:text-white">Hubungi Saya</h2>
+              <p class="text-base font-medium text-slate-500 dark:text-slate-400">Jika anda memiliki pesan atau saran silahkan hubungi saya</p>
+            </div>
+          </div>
+          <form name="difhaels-contact">
+            <div class="w-full lg:mx-auto lg:w-2/3">
+              <div class="mb-8 w-full px-4">
+                <label for="name" class="text-base font-bold text-primary dark:text-[#E9A6A6]">Nama</label>
+                <input type="text" id="name" name="nama" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary dark:focus:ring-[#E9A6A6]" />
+              </div>
+              <div class="mb-8 w-full px-4">
                 <label for="email" class="text-base font-bold text-primary dark:text-[#E9A6A6]">Email</label>
-                <input type="email" id="email" name="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary focus:dark:ring-[#E9A6A6] ">
-             </div>
-            <div class="w-full px-4 mb-8">
-              <label for="pesan" class="text-base font-bold text-primary dark:text-[#E9A6A6]">Pesan</label>
-              <textarea type="text" id="pesan" name="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring focus:ring-primary focus:dark:ring-[#E9A6A6] h-32  "></textarea>
-            </div>
-            <div class="w-full px-4">
-              <button id="kirim" class="text-white bg-primary py-3 w-full rounded-full hover:bg-teal-600 dark:bg-[#864879] hover:dark:bg-[#653a5c] " type="submit">Kirim</button>
-            </div>
-              
+                <input type="email" id="email" name="email" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary focus:dark:ring-[#E9A6A6]" />
+              </div>
+              <div class="mb-8 w-full px-4">
+                <label for="pesan" class="text-base font-bold text-primary dark:text-[#E9A6A6]">Pesan</label>
+                <textarea type="text" id="pesan" name="pesan" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary focus:dark:ring-[#E9A6A6]"></textarea>
+              </div>
+              <div class="w-full px-4">
+                <button id="kirim" class="w-full rounded-full bg-primary py-3 text-white hover:bg-teal-600 dark:bg-[#864879] hover:dark:bg-[#653a5c]" type="submit">Kirim</button>
+              </div>
             </div>
           </form>
         </div>
-      </div>
-    </section> 
-    <!-- kontak start --> 
+      </section>
+      <!-- kontak start -->
 
-    <!-- footer start --> 
-    <footer class="bg-dark pt-24 pb-12 mt-16 ">
-      <div class="container">
-        <div class="md:flex justify-center items-center ">
-          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:max-w-xs">
-            <h2 class="font-bold text-4xl text-white mb-5">Difhaels</h2>
-            <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
-            <p>agungsaputradifh@gmail.com</p>
-            <p>Bogor, cileungsi</p>
-          </div>
-          <div class="w-full mb-12  md:max-w-xs">
-            <div class="mb-5 flex items-center justify-center">
-              <!-- whatsapp -->
-              <a
-                href="https://wa.me/+62895337305533"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>WhatsApp</title>
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-                </svg>
-              </a>
-  
-              <!-- Instagram -->
-              <a
-                href="https://www.instagram.com/difhaels/?hl=id"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Instagram</title>
-                  <path
-                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
-                  />
-                </svg>
-              </a>
-  
-              <!-- facebook -->
-              <a
-                href="https://www.facebook.com/profile.php?id=100038309832831"
-                target="_blank"
-                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
-              >
-                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <title>Facebook</title>
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              </a>
+      <!-- footer start -->
+      <footer class="mt-16 bg-dark pt-24 pb-12">
+        <div class="container">
+          <div class="items-center justify-center md:flex">
+            <div class="mb-12 w-full px-4 font-medium text-slate-300 md:max-w-xs">
+              <h2 class="mb-5 text-4xl font-bold text-white">Difhaels</h2>
+              <h3 class="mb-2 text-2xl font-bold">Hubungi Saya</h3>
+              <p>agungsaputradifh@gmail.com</p>
+              <p>Bogor, cileungsi</p>
+            </div>
+            <div class="mb-12 w-full md:max-w-xs">
+              <div class="mb-5 flex items-center justify-center">
+                <!-- whatsapp -->
+                <a href="https://wa.me/+62895337305533" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>WhatsApp</title>
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                    />
+                  </svg>
+                </a>
 
+                <!-- Instagram -->
+                <a
+                  href="https://www.instagram.com/difhaels/?hl=id"
+                  target="_blank"
+                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Instagram</title>
+                    <path
+                      d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                    />
+                  </svg>
+                </a>
+
+                <!-- facebook -->
+                <a
+                  href="https://www.facebook.com/profile.php?id=100038309832831"
+                  target="_blank"
+                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Facebook</title>
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
+          <p class="pt-7 text-center text-xs font-medium text-slate-500">Dibuat dengan <span class="text-pink-500">❤️</span> oleh <a href="https://instagram.com/difhaels" target="_blank" class="font-bold text-primary">Agung Saputra</a></p>
         </div>
-        <p class="text-center text-xs font-medium text-slate-500 pt-7">
-          Dibuat dengan <span class="text-pink-500">❤️</span> oleh <a href="https://instagram.com/difhaels" target="_blank" class="font-bold text-primary">Agung Saputra</a>
-        </p>
-      </div>
-
-    </footer>
-    <!-- footer end -->
-
+      </footer>
+      <!-- footer end -->
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/dist/js/script.js"></script>
   </body>

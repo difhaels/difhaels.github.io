@@ -900,16 +900,6 @@ video {
   padding-right: 1.75rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -925,6 +915,10 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .pt-10 {
@@ -945,10 +939,6 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
 }
 
 .text-center {

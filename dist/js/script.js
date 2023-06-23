@@ -11,7 +11,7 @@ window.onscroll = function () {
   }
 };
 
-// Hamburger
+// Hamburgeri98u88276
 const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector("#nav-menu");
 hamburger.addEventListener("click", function () {
