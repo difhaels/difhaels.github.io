@@ -890,9 +890,9 @@ video {
   padding-right: 2rem;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .px-7 {
@@ -900,38 +900,28 @@ video {
   padding-right: 1.75rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pr-12 {
   padding-right: 3rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-14 {
   padding-top: 3.5rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .pt-24 {
@@ -944,30 +934,6 @@ video {
 
 .pt-7 {
   padding-top: 1.75rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-center {
@@ -1290,17 +1256,8 @@ body {
     padding-bottom: 7rem;
   }
 
-  .sm\:py-36 {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-  }
-
   .sm\:pt-36 {
     padding-top: 9rem;
-  }
-
-  .sm\:pt-24 {
-    padding-top: 6rem;
   }
 
   .sm\:pt-16 {
