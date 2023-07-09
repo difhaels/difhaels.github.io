@@ -26,3 +26,7 @@ body {
 #toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+
+.dark #image {
+  content: url('../img/ram.png');
+}

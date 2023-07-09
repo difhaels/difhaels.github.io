@@ -695,10 +695,6 @@ video {
   margin-bottom: 3rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .block {
   display: block;
 }
@@ -1035,14 +1031,14 @@ video {
   color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
-.text-pink-500 {
-  --tw-text-opacity: 1;
-  color: rgb(236 72 153 / var(--tw-text-opacity));
-}
-
 .text-darkPrimary {
   --tw-text-opacity: 1;
   color: rgb(233 69 96 / var(--tw-text-opacity));
+}
+
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -1117,6 +1113,10 @@ body {
 #toggle:checked ~ label div.toggle-circle {
   --tw-translate-x: 0.75rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.dark #image {
+  content: url('../img/ram.png');
 }
 
 .hover\:border-primary:hover {
@@ -1220,12 +1220,12 @@ body {
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
-.dark .hover\:dark\:bg-\[\#653a5c\]:hover {
+.dark .hover\:dark\:bg-darkHover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(101 58 92 / var(--tw-bg-opacity));
 }
 
-.dark .hover\:dark\:bg-darkHover:hover {
+.dark .hover\:dark\:bg-\[\#653a5c\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(101 58 92 / var(--tw-bg-opacity));
 }

@@ -45,3 +45,18 @@ form.addEventListener("submit", (e) => {
 const darkMode = document.querySelector("#toggle");
 const html = document.querySelector("html");
 darkMode.addEventListener("click", () => (darkMode.checked ? html.classList.add("dark") : html.classList.remove("dark")));
+
+const imageElement = document.getElementById('image');
+
+function checkDarkMode() {
+  if (html.classList.contains('dark')) {
+    imageElement.classList.add('dark');
+  } else {
+    imageElement.classList.remove('dark');
+  }
+}
+
+checkDarkMode();
+
+// Jika terdapat perubahan pada class elemen <html>
+html.addEventListener('DOMAttrModified', checkDarkMode);
