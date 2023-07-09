@@ -621,6 +621,14 @@ video {
   left: 50%;
 }
 
+.-bottom-\[105px\] {
+  bottom: -105px;
+}
+
+.-bottom-\[125px\] {
+  bottom: -125px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1193,6 +1201,10 @@ body {
 
 .dark .dark\:fill-\[\#864879\] {
   fill: #864879;
+}
+
+.dark .dark\:fill-\[\#B31312\] {
+  fill: #B31312;
 }
 
 .dark .dark\:text-\[\#bb63a8\] {
