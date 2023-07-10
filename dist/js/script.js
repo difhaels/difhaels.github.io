@@ -60,3 +60,12 @@ checkDarkMode();
 
 // Jika terdapat perubahan pada class elemen <html>
 html.addEventListener('DOMAttrModified', checkDarkMode);
+
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  const yOffset = -70; // Menyesuaikan piksel ke atas yang diinginkan
+  const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  window.scrollTo({ top: y, behavior: 'smooth' });
+}
