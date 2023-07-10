@@ -12,7 +12,7 @@ module.exports = {
         primary: "#5A96E3",
         dark: "#16213E",
         dark2 : "#0F3460",
-        dark3: "#533483",
+        dark3: "#112D4E",
         darkPrimary : "#E94560",
         darkHover : "#653a5c"
       },

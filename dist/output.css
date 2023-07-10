@@ -843,9 +843,9 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-dark2 {
+.bg-slate-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 52 96 / var(--tw-bg-opacity));
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .fill-current {
@@ -1198,7 +1198,7 @@ body {
 
 .dark .dark\:bg-dark3 {
   --tw-bg-opacity: 1;
-  background-color: rgb(83 52 131 / var(--tw-bg-opacity));
+  background-color: rgb(17 45 78 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:fill-darkPrimary {
