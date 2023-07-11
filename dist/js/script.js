@@ -11,7 +11,7 @@ window.onscroll = function () {
   }
 };
 
-// Hamburgeri98u88276
+// Hamburger
 const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector("#nav-menu");
 hamburger.addEventListener("click", function () {
@@ -26,26 +26,28 @@ window.addEventListener("click", function (e) {
     navMenu.classList.add("hidden");
   }
 });
+
 // submit
-const submit = document.querySelector("#kirim");
-submit.addEventListener("click", () => alert("Terkirim 👌"));
+// const submit = document.querySelector("#kirim");
+// submit.addEventListener("click", () => alert("Terkirim 👌"));
 
-// contact
-const scriptURL = "https://script.google.com/macros/s/AKfycbwu-pCt-LMyAQwi4bkBpGKW6nsk_JdVoA87Izsvq9Ltuq6_hHB6Jf0AL2tctAYjZBCz/exec";
-const form = document.forms["difhaels-contact"];
+// // contact
+// const scriptURL = "https://script.google.com/macros/s/AKfycbwu-pCt-LMyAQwi4bkBpGKW6nsk_JdVoA87Izsvq9Ltuq6_hHB6Jf0AL2tctAYjZBCz/exec";
+// const form = document.forms["difhaels-contact"];
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  fetch(scriptURL, { method: "POST", body: new FormData(form) })
-    .then((response) => console.log("Success!", response))
-    .catch((error) => console.error("Error!", error.message));
-});
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   fetch(scriptURL, { method: "POST", body: new FormData(form) })
+//     .then((response) => console.log("Success!", response))
+//     .catch((error) => console.error("Error!", error.message));
+// });
 
 // dark mode
 const darkMode = document.querySelector("#toggle");
 const html = document.querySelector("html");
 darkMode.addEventListener("click", () => (darkMode.checked ? html.classList.add("dark") : html.classList.remove("dark")));
 
+// image effect dark
 const imageElement = document.getElementById('image');
 
 function checkDarkMode() {
