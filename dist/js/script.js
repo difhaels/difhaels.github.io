@@ -43,7 +43,7 @@ form.addEventListener("submit", (e) => {
 });
 
 // dark mode
-const darkMode = document.querySelector("#toggle");
+const darkMode = document.querySelector("#toggle-dark");
 const html = document.querySelector("html");
 darkMode.addEventListener("click", () => (darkMode.checked ? html.classList.add("dark") : html.classList.remove("dark")));
 

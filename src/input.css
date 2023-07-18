@@ -5,28 +5,278 @@
 body {
   font-family: "Inter", sans-serif;
 }
+.dark #image {
+  content: url('../img/ram.png');
+}
+/* Navbar start*/
+.head-parent {
+  @apply absolute top-0 left-0 z-10 flex w-full items-center bg-transparent dark:bg-dark2;
+}
+.head-flex {
+  @apply relative flex items-center justify-between;
+}
+.head-left {
+  @apply block py-6 px-4 text-lg font-bold text-primary dark:text-darkPrimary;
+}
+.head-right {
+  @apply flex items-center px-4;
+}
+.head-right-flex {
+  @apply flex justify-center pr-12 lg:pr-8;
+}
+.head-dark-text {
+  @apply mx-2 text-sm dark:text-slate-50;
+}
+.head-dark-bg-button {
+  @apply flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1 dark:bg-slate-50;
+}
+.head-dark-button {
+  @apply h-4 w-4 rounded-full bg-slate-100 dark:bg-dark;
+}
+#toggle-dark:checked ~ label div.toggle-circle {
+  @apply translate-x-3;
+}
 .navbar-fixed {
   @apply fixed z-[999] bg-white bg-opacity-70;
   backdrop-filter: blur(5px);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
-.hamburger-line {
-  @apply my-2 block h-[2px] w-[30px] bg-dark dark:bg-white;
+  /* header mobile mode start */
+  .hamburger {
+    @apply absolute right-4 block lg:hidden;
+  }
+  .hamburger-line {
+    @apply my-2 block h-[2px] w-[30px] bg-dark dark:bg-white transition duration-300 ease-in-out;
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    @apply origin-top-left rotate-45;
+  }
+  .hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+  }
+  .hamburger-active > span:nth-child(3) {
+    @apply origin-bottom-left -rotate-45;
+  }
+  /* header mobile mode end */
+  
+  /* header desktop mode start */
+  .head-desktop {
+    @apply absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-slate-300 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:bg-transparent lg:shadow-none;
+  }
+  .head-desktop-li {
+    @apply mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary;
+  }
+  /* header desktop mode end */
+
+/* Hero Start */
+.hero-parent {
+  @apply pt-20 sm:pt-36;
+}
+.hero-flex {
+  @apply flex flex-wrap;
+}
+.hero-left {
+  @apply w-full self-center px-4 lg:w-1/2;
+}
+.hero-left-text-1 {
+  @apply text-base font-semibold text-primary dark:text-darkPrimary md:text-xl;
+}
+.hero-left-text-2 {
+  @apply block text-4xl text-dark dark:text-white;
+}
+.hero-left-text-3 {
+  @apply mb-5 text-lg font-medium text-slate-500 dark:text-darkPrimary;
+}
+.hero-left-text-4 {
+  @apply mb-10 font-medium leading-relaxed text-slate-400;
+}
+.hero-hubungi {
+  @apply rounded-full bg-primary py-3 px-8 text-base font-semibold text-white hover:bg-primaryHover hover:shadow-lg dark:bg-darkPrimary hover:dark:bg-darkHover;
+}
+.hero-right {
+  @apply w-full self-end px-4 lg:w-1/2;
+}
+/* Hero End */
+
+/* About start */
+.about-parent {
+  @apply pt-5 sm:pt-16 pb-10 sm:pb-24;
+}
+.about-left {
+  @apply mb-10 w-full px-4 lg:w-1/2;
+}
+.about-left-text-1 {
+  @apply mb-3 font-bold uppercase text-primary dark:text-white;
+}
+.about-left-text-2 {
+  @apply mb-5 max-w-xl text-3xl font-bold text-dark dark:text-darkPrimary;
+}
+.about-left-text-3 {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400;
+}
+.about-right {
+  @apply w-full px-4 lg:w-1/2;
+}
+.about-right-text-1 {
+  @apply text-2xl font-semibold text-dark dark:text-darkPrimary;
+}
+.about-right-text-2 {
+  @apply mb-4 text-base font-medium text-slate-500 dark:text-slate-400;
+}
+.about-icon {
+  @apply mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-darkPrimary dark:text-darkPrimary hover:dark:bg-darkHover;
+}
+/* About end */
+
+/* Skill Start */
+.skill-parent {
+  @apply bg-slate-300 py-10 sm:py-28 dark:bg-dark3;
+}
+.skill-text-1 {
+  @apply font-bold text-primary dark:text-darkPrimary text-center;
+}
+.skill-text-2 {
+  @apply text-center text-2xl font-bold text-dark dark:text-white;
+}
+.skill-text-3 {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-10;
+}
+.skill-flex-icon {
+  @apply flex justify-center items-center gap-5 mx-5 flex-wrap;
+}
+.skill-icon {
+  @apply transition hover:-translate-y-5 hover:scale-110 duration-100 w-[100px] h-[100px];
+}  
+/*  Skill End */
+
+/*  Portfolio Start */
+.portfolio-parent {
+  @apply py-10 sm:py-28 dark:bg-dark;
+}
+.portfolio-text {
+  @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary;
+}
+.portfolio-text-1 {
+  @apply text-2xl font-bold text-dark dark:text-white;
+}
+.portfolio-text-2 {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400;
+}
+.portfolio-project-flex {
+  @apply flex flex-wrap justify-center gap-3 lg:gap-10;
+}
+.portfolio-project {
+  @apply mt-10 px-7 lg:max-w-lg lg:px-0;
+}
+.portfolio-project-title {
+  @apply mt-3 text-base font-bold text-dark dark:text-darkPrimary;
+}
+.portfolio-project-github {
+  @apply text-base text-slate-500 dark:text-slate-400;
+}
+.portfolio-sertifikat-flex {
+  @apply flex flex-wrap justify-center items-center gap-5 mb-10;
+}
+.portfolio-sertifikat {
+  @apply w-56 flex justify-start items-center bg-slate-200 transition hover:-translate-y-5 hover:scale-110 duration-100 shadow-xl dark:bg-darkPrimary dark:text-white;
 }
 
-.hamburger-active > span:nth-child(1) {
-  @apply origin-top-left rotate-45;
+/*  Portfolio End */
+
+/*  Rate Start */
+.rate-parent {
+  @apply py-10 sm:py-28 bg-slate-300 dark:bg-dark3;
 }
-.hamburger-active > span:nth-child(2) {
-  @apply scale-0;
+.rate-text {
+  @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary text-center;
 }
-.hamburger-active > span:nth-child(3) {
-  @apply origin-bottom-left -rotate-45;
+.rate-text-1 {
+  @apply text-2xl font-bold text-dark dark:text-white text-center;
 }
-#toggle:checked ~ label div.toggle-circle {
-  @apply translate-x-3;
+.rate-text-2 {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-16;
+}
+.rate-flex {
+  @apply container flex flex-wrap;
+}
+.rate-left {
+  @apply w-full lg:w-1/2 flex flex-wrap gap-3 lg:gap-10 justify-center lg:justify-end;
+}
+.rate-left-comment {
+  @apply bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl;
+}
+.rate-left-profil {
+  @apply flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2;
+}
+.rate-left-img {
+  @apply w-5 h-5 rounded-full;
+}
+.rate-left-star {
+  @apply w-3 h-3;
+}
+.rate-right {
+  @apply w-full lg:w-1/2;
+}
+.rate-right-text {
+  @apply mx-auto mb-7 max-w-xl text-center;
+}
+.rate-right-text-kontak {
+  @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary;
+}
+.rate-right-text-hubungi {
+  @apply text-2xl font-bold text-dark dark:text-white;
+}
+.rate-right-text-saran {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400;
+}
+.rate-right-form {
+  @apply w-full lg:mx-auto lg:w-2/3;
+}
+.rate-right-form-isi {
+  @apply mb-8 w-full px-4
+}
+.rate-right-form-nama {
+  @apply text-base font-bold text-primary dark:text-darkPrimary;
+}
+.rate-right-form-input {
+  @apply w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary;
+}
+.rate-right-button {
+  @apply w-full px-4;
+}
+.rate-right-button-kirim {
+  @apply w-full rounded-full bg-primary py-3 text-white hover:bg-teal-600 dark:bg-darkPrimary hover:dark:bg-[#653a5c];
 }
 
-.dark #image {
-  content: url('../img/ram.png');
+/*  Rate End */
+
+/*  Footer Start */
+.footer-parent {
+  @apply bg-slate-800 dark:bg-dark2 pt-24 pb-12;
 }
+.footer-flex {
+  @apply items-center justify-center md:flex;
+}
+.footer-left {
+  @apply mb-12 w-full px-4 font-medium text-slate-300 md:max-w-xs;
+}
+.footer-left-name {
+  @apply mb-5 text-4xl font-bold text-darkPrimary;
+}
+.footer-right {
+  @apply mb-12 w-full md:max-w-xs;
+}
+.footer-right-sosmed {
+  @apply mb-5 flex items-center justify-center;
+}
+.footer-right-sosmed-icon {
+  @apply mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white;
+}
+.footer-dibuat {
+  @apply pt-7 text-center text-xs font-medium text-slate-500
+}
+.footer-name {
+  @apply font-bold text-primary;
+}
+/*  Footer End */

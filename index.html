@@ -11,51 +11,49 @@
   <body class="dark:bg-dark">
     <div id="div">
 
-      <!-- header start -->
-      <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent dark:bg-dark2">
+      <!-- Navbar start -->
+      <header class="head-parent">
         <div class="container">
-          <div class="relative flex items-center justify-between">
-            <div class="px-4">
-              <a href="#home" class="block py-6 text-lg font-bold text-primary dark:text-darkPrimary">Difhaels</a>
-            </div>
+          <div class="head-flex">
+            <a href="#home" class="head-left">Difhaels</a>
 
-            <div class="flex items-center px-4">
+            <div class="head-right">
               <!-- dark mode -->
-              <div class="flex justify-center pr-12 lg:pr-8">
-                <span class="mr-2 text-sm dark:text-slate-50">Light</span>
-                <input type="checkbox" id="toggle" class="hidden" />
-                <label for="toggle">
-                  <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1 dark:bg-slate-50">
-                    <div class="toggle-circle h-4 w-4 rounded-full bg-slate-100 dark:bg-dark"></div>
+              <div class="head-right-flex">
+                <span class="head-dark-text">Light</span>
+                <input type="checkbox" id="toggle-dark" class="hidden" />
+                <label for="toggle-dark">
+                  <div class="head-dark-bg-button">
+                    <div class="head-dark-button toggle-circle"></div>
                   </div>
                 </label>
-                <span class="ml-2 text-sm dark:text-slate-50">Dark</span>
+                <span class="head-dark-text">Dark</span>
               </div>
 
               <!-- mobile -->
-              <button id="hamburger" name="humburger" class="absolute right-4 block lg:hidden">
-                <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <button id="hamburger" name="hamburger" class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
               </button>
 
               <!-- desktop -->
-              <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-slate-300 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:bg-transparent lg:shadow-none">
+              <nav id="nav-menu" class="head-desktop">
                 <ul class="block lg:flex">
                   <li class="group">
-                    <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary">Home</a>
+                    <a href="#home" class="head-desktop-li">Home</a>
                   </li>
                   <li class="group">
-                    <a href="javascript:void(0);" onclick="scrollToSection('about')" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary">About</a>
+                    <a href="javascript:void(0);" onclick="scrollToSection('about')" class="head-desktop-li">About</a>
                   </li>
                   <li class="group">
-                    <a href="#skill" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary">Skill</a>
+                    <a href="#skill" class="head-desktop-li">Skill</a>
                   </li>
                   <li class="group">
-                    <a href="#portfolio" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary">Portfolio</a>
+                    <a href="#portfolio" class="head-desktop-li">Portfolio</a>
                   </li>
                   <li class="group">
-                    <a href="#rate " class="mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary">Rate</a>
+                    <a href="#rate " class="head-desktop-li">Rate</a>
                   </li>
                 </ul>
               </nav>
@@ -66,17 +64,17 @@
       <!-- header end -->
 
       <!-- hero start -->
-      <section id="home" class="pt-20 sm:pt-36">
+      <section id="home" class="hero-parent">
         <div class="container">
-          <div class="flex flex-wrap">
-            <div class="w-full self-center px-4 lg:w-1/2">
-              <h1 class="text-base font-semibold text-primary dark:text-darkPrimary md:text-xl">Halo Semua👊, Saya <span class="block text-4xl text-dark dark:text-white">Agung Saputra</span></h1>
-              <h2 class="mb-5 text-lg font-medium text-slate-500 dark:text-darkPrimary">Unbeatable | Unstopable</h2>
-              <p class="mb-10 font-medium leading-relaxed text-slate-400">Mempelajari bidang full-stack developer, tertarik dibidang pengembangan website, game, software dan bermain beberapa game kompetitif diwaktu luang</p>
+          <div class="hero-flex">
+            <div class="hero-left">
+              <h1 class="hero-left-text-1">Halo Semua👊, Saya <span class="hero-left-text-2">Agung Saputra</span></h1>
+              <h2 class="hero-left-text-3">Unbeatable | Unstopable</h2>
+              <p class="hero-left-text-4">Mempelajari bidang full-stack developer, tertarik dibidang pengembangan website, game, software dan bermain beberapa game kompetitif diwaktu luang</p>
 
-              <a href="https://wa.me/+62895337305533" target="_blank" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white hover:bg-primaryHover hover:shadow-lg dark:bg-darkPrimary hover:dark:bg-darkHover">Hubungi</a>
+              <a href="https://wa.me/+62895337305533" target="_blank" class="hero-hubungi">Hubungi</a>
             </div>
-            <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="hero-right">
               <div class="relative mt-10">
                 <img src="img/rem.png" id="image" width="300" alt="rem or ram" class="mx-auto max-w-full" />
                 <span class="absolute bottom-[25px] left-1/2 -z-10 -translate-x-1/2">
@@ -131,23 +129,23 @@
       <!-- hero end -->
 
       <!-- about start -->
-      <section id="about" class="pt-5 sm:pt-16 pb-10 sm:pb-24">
+      <section id="about" class="about-parent">
         <div class="container">
           <div class="flex flex-wrap" data-aos="fade-up">
-            <div class="mb-10 w-full px-4 lg:w-1/2">
-              <h4 class="mb-3 font-bold uppercase text-primary dark:text-white">Tentang Saya</h4>
-              <h2 class="mb-5 max-w-xl text-3xl font-bold text-dark dark:text-darkPrimary">Profil Singkat</h2>
-              <p class="text-base font-medium text-slate-500 dark:text-slate-400">Umur 19 tahun, aktif sebagai mahasiswa semester 2 diuniversitas nasional jurusan Sistem Informasi dan bercita-cita untuk menguasai dunia</p>
+            <div class="about-left">
+              <h4 class="about-left-text-1">Tentang Saya</h4>
+              <h2 class="about-left-text-2">Profil Singkat</h2>
+              <p class="about-left-text-3">Umur 19 tahun, aktif sebagai mahasiswa semester 2 diuniversitas nasional jurusan Sistem Informasi dan bercita-cita untuk menguasai dunia</p>
             </div>
-            <div class="w-full px-4 lg:w-1/2" data-aos="fade-up">
-              <h3 class="text-2xl font-semibold text-dark dark:text-darkPrimary">let's team up!</h3>
-              <p class="mb-4 text-base font-medium text-slate-500 dark:text-slate-400">Tidak bisa menggunakan 100% power jika kita belum berteman, jadi ayo berteman </p>
+            <div class="about-right" data-aos="fade-up">
+              <h3 class="about-right-text-1">let's team up!</h3>
+              <p class="about-right-text-2">Tidak bisa menggunakan 100% power jika kita belum berteman, jadi ayo berteman </p>
               <div class="flex items-center">
                 <!-- whatsapp -->
                 <a
                   href="https://wa.me/+62895337305533"
                   target="_blank"
-                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-darkPrimary dark:text-darkPrimary hover:dark:bg-darkHover"
+                  class="about-icon"
                 >
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>WhatsApp</title>
@@ -161,7 +159,7 @@
                 <a
                   href="https://www.instagram.com/difhaels/?hl=id"
                   target="_blank"
-                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-darkPrimary dark:text-darkPrimary hover:dark:bg-darkHover"
+                  class="about-icon"
                 >
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Instagram</title>
@@ -175,7 +173,7 @@
                 <a
                   href="https://www.facebook.com/profile.php?id=100038309832831"
                   target="_blank"
-                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-700 hover:border-primary hover:bg-primary hover:text-white dark:border-darkPrimary dark:text-darkPrimary hover:dark:bg-darkHover"
+                  class="about-icon"
                 >
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Facebook</title>
@@ -192,66 +190,66 @@
       <!-- about end -->
 
       <!-- skill start -->
-      <section id="skill" class="bg-slate-300 py-10 sm:py-28 dark:bg-dark3">
+      <section id="skill" class="skill-parent">
         <div class="container">
-          <h1 class="font-bold text-primary dark:text-darkPrimary text-center">SKILL</h1>
-          <h2 class="text-center text-2xl font-bold text-dark dark:text-white">Skill terbaru</h2>
-          <p class="text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-10">Masih dalam tahap proses pengembangan</p>
+          <h1 class="skill-text-1">SKILL</h1>
+          <h2 class="skill-text-2">Skill terbaru</h2>
+          <p class="skill-text-3">Masih dalam tahap proses pengembangan</p>
 
-          <div class="flex justify-center items-center gap-5 mx-5 flex-wrap">
-            <img src="img/icon/html5-original.svg" alt="html5" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/css.svg" alt="css" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/javascript.svg" alt="javascript" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/php-original.svg" alt="php" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/tailwindcss.svg" alt="tailwindcss" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/mysql-original.svg" alt="mysql" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/vscode.svg" alt="vscode" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/git.svg" alt="git" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/github.svg" alt="Github" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
+          <div class="skill-flex-icon">
+            <img src="img/icon/html5-original.svg" alt="html5" class="skill-icon">
+            <img src="img/icon/css.svg" alt="css" class="skill-icon">
+            <img src="img/icon/javascript.svg" alt="javascript" class="skill-icon">
+            <img src="img/icon/php-original.svg" alt="php" class="skill-icon">
+            <img src="img/icon/tailwindcss.svg" alt="tailwindcss" class="skill-icon">
+            <img src="img/icon/mysql-original.svg" alt="mysql" class="skill-icon">
+            <img src="img/icon/vscode.svg" alt="vscode" class="skill-icon">
+            <img src="img/icon/git.svg" alt="git" class="skill-icon">
+            <img src="img/icon/github.svg" alt="Github" class="skill-icon">
           </div>
-          <h2 class="pt-10 text-center text-2xl font-bold text-dark dark:text-white">Skill Umm</h2>
-          <p class="text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-10">Pernah atau sering mencoba, tapi &gt;///&lt;</p>
-          <div class="flex justify-center items-center gap-5 mx-5 flex-wrap">
-            <img src="img/icon/bootstrap.svg" alt="bootstrap" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
-            <img src="img/icon/react-original.svg" alt="react" width="100" height="100" class="transition hover:-translate-y-5 hover:scale-110 duration-100">
+          <h2 class="pt-10 skill-text-2">Skill Umm</h2>
+          <p class="skill-text-3">Pernah atau sering mencoba, tapi &gt;///&lt;</p>
+          <div class="skill-flex-icon">
+            <img src="img/icon/bootstrap.svg" alt="bootstrap" class="skill-icon">
+            <img src="img/icon/react-original.svg" alt="react" class="skill-icon">
           </div>
         </div>
       </section>
       <!-- skill end -->
 
       <!-- portfolio start -->
-      <section id="portfolio" class="py-10 sm:py-28 dark:bg-dark">
+      <section id="portfolio" class="portfolio-parent">
         <div class="container">
           <div class="px-4 text-center" data-aos="fade-up">
-            <h4 class="pt-10 font-bold uppercase text-primary dark:text-darkPrimary">Portfolio</h4>
-            <h2 class="text-2xl font-bold text-dark dark:text-white">Projek Terbaru</h2>
-            <p class="text-base font-medium text-slate-500 dark:text-slate-400">Projek dari individual atau tim, projek mungkin belum selesai dan akan diperbaharui</p>
+            <h4 class="portfolio-text">Portfolio</h4>
+            <h2 class="portfolio-text-1">Projek Terbaru</h2>
+            <p class="portfolio-text-2">Projek dari individual atau tim, projek mungkin belum selesai dan akan diperbaharui</p>
           </div>
           
-          <div class="justify-center lg:flex lg:gap-10">
-            <div class="mt-10 px-7 lg:max-w-lg lg:px-0">
+          <div class="portfolio-project-flex">
+            <div class="portfolio-project">
               <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="img/project/project1.png" alt="project 1" class="rounded-lg" />
               </div>
-              <h1 class="mt-3 text-base font-bold text-dark dark:text-darkPrimary">Determinix (2023)</h1>
-              <p class="text-base text-slate-500 dark:text-slate-400">Github source code, <a href="https://github.com/difhaels/determinix" target="_blank" class="text-sky-500">lihat disini</a></p>
+              <h1 class="portfolio-project-title">Determinix (2023)</h1>
+              <p class="portfolio-project-github">Github source code, <a href="https://github.com/difhaels/determinix" target="_blank" class="text-sky-500">lihat disini</a></p>
             </div>
 
-            <div class="mt-7 px-7 lg:mt-10 lg:max-w-lg lg:px-0">
+            <div class="portfolio-project">
               <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="img/project/project2.png" alt="project 2" class="rounded-lg" />
               </div>
-              <h1 class="mt-3 text-base font-bold text-dark dark:text-darkPrimary">Dx Photograph (2023)</h1>
-              <p class="text-base text-slate-500 dark:text-slate-400">Github source code, <a href="https://github.com/difhaels/dx-project" target="_blank" class="text-sky-500">lihat disini</a></p>
+              <h1 class="portfolio-project-title">Dx Photograph (2023)</h1>
+              <p class="portfolio-project-github">Github source code, <a href="https://github.com/difhaels/dx-project" target="_blank" class="text-sky-500">lihat disini</a></p>
             </div>
           </div>
 
           <div id="sertifikat" class="px-4 pt-32 text-center mb-7 lg:mb-10" data-aos="fade-up">
-            <h2 class="text-2xl font-bold text-dark dark:text-white">Sertifikat</h2>
-            <p class="text-base font-medium text-slate-500 dark:text-slate-400">Sertifikat saya baru-baru ini (Klik untuk lebih jelas)</p>
+            <h2 class="portfolio-text-1">Sertifikat</h2>
+            <p class="portfolio-text-2">Sertifikat saya baru-baru ini (Klik untuk lebih jelas)</p>
           </div>
-          <div class="flex flex-wrap justify-center items-center gap-5 mb-10">
-            <a href="sertifikat.html" class="w-56 flex justify-start items-center bg-slate-200 transition hover:-translate-y-5 hover:scale-110 duration-100 shadow-xl dark:bg-darkPrimary dark:text-white"  data-aos="fade-right">
+          <div class="portfolio-sertifikat-flex">
+            <a href="sertifikat.html" class="portfolio-sertifikat"  data-aos="fade-right">
               <img src="img/icon/javascript.svg" alt="javascript" class="w-16 h-16">
               <div class="px-4">
                 <h1>Dasar Javascript</h1>
@@ -264,118 +262,119 @@
       <!-- portfolio end -->
   
       <!-- rate start -->
-      <section id="rate" class="py-10 sm:py-28 bg-slate-300 dark:bg-dark3">
+      <section id="rate" class="rate-parent">
 
-        <h4 class="pt-10 font-bold uppercase text-primary dark:text-darkPrimary text-center">Rate</h4>
-        <h2 class="text-2xl font-bold text-dark dark:text-white text-center">what's this?</h2>
-        <p class="text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-16">Komentar tentang saya, give me more pain</p>
+        <h4 class="rate-text">Rate</h4>
+        <h2 class="rate-text-1">what's this?</h2>
+        <p class="rate-text-2">Komentar tentang saya, give me more pain</p>
         
-        <div class="container flex flex-wrap">
-          <div class="w-full lg:w-1/2 flex flex-wrap gap-3 lg:gap-10 justify-center lg:justify-end">
+        <div class="rate-flex">
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-red-500 rounded-full"></div>
+          <div class="rate-left">
+
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-red-500 rate-left-img"></div>
                 <h1 class="text-base">Inisial R</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
               </div>
               <h1 class="px-3 py-2">Baik, keren, selalu bisa diandelin 👍👍👍</h1>
               <div class="px-3"><h1 class="font-black inline-block">Dev :</h1> Terimakasih</div>
             </div>
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-purple-500 rounded-full"></div>
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-purple-500 rate-left-img"></div>
                 <h1 class="text-base">Alice</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
               </div>
               <h1 class="px-3 py-2">Katanya kalo ngasih bintang 5 dapet eskrim</h1>
               <div class="px-3"><h1 class="font-black inline-block">Dev :</h1> 🍧🍧</div>
             </div>
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-blue-500 rounded-full"></div>
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-blue-500 rate-left-img"></div>
                 <h1 class="text-base">Anonymous</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
               </div>
               <div class="px-3"><h1 class="font-black inline-block">Dev :</h1> huh?</div>
             </div>
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-orange-500 rounded-full"></div>
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-orange-500 rate-left-img"></div>
                 <h1 class="text-base">Secret</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
               </div>
               <h1 class="px-3 py-2">hebat bisa ngehandle banyak masalah</h1>
               <div class="px-3"><h1 class="font-black inline-block">Dev :</h1> Terimakasih</div>
             </div>
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-pink-500 rounded-full"></div>
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-pink-500 rate-left-img"></div>
                 <h1 class="text-base">Bocchi</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/black-star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/black-star.svg" alt="star" class="rate-left-star">
               </div>
               <h1 class="px-3 py-2">Bintang 3 dulu, kalo bagus ditambahin lagi</h1>
             </div>
 
-            <div class="bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl" data-aos="fade-right">
-              <div class="flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2">
-                <div class="w-5 h-5 bg-black rounded-full"></div>
+            <div class="rate-left-comment" data-aos="fade-right">
+              <div class="rate-left-profil">
+                <div class="bg-black rate-left-img"></div>
                 <h1 class="text-base">Real Anonymous</h1>
               </div>
               <div class="flex px-3 py-2 border-b-2">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
-                <img src="img/icon/star.svg" alt="star" class="w-3 h-3">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
+                <img src="img/icon/star.svg" alt="star" class="rate-left-star">
 
               </div>
               <h1 class="px-3 py-2 text-red-500">Situs ini sudah diserang oleh Real Anonymous</h1>
@@ -383,51 +382,53 @@
             </div>
 
           </div>
-          <div class="w-full lg:w-1/2" >
+
+          <div class="rate-right" >
             <div class="w-full px-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
-              <div class="mx-auto mb-7 max-w-xl text-center">
-                <h4 class="pt-10 font-bold uppercase text-primary dark:text-darkPrimary">Kontak</h4>
-                <h2 class="text-2xl font-bold text-dark dark:text-white">Hubungi Saya</h2>
-                <p class="text-base font-medium text-slate-500 dark:text-slate-400">Jika anda memiliki pesan atau saran silahkan hubungi saya</p>
+              <div class="rate-right-text">
+                <h4 class="rate-right-text-kontak">Kontak</h4>
+                <h2 class="rate-right-text-hubungi">Hubungi Saya</h2>
+                <p class="rate-right-text-saran">Jika anda memiliki pesan atau saran silahkan hubungi saya</p>
               </div>
             </div>
             <form name="difhaels-contact" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
-              <div class="w-full lg:mx-auto lg:w-2/3">
-                <div class="mb-8 w-full px-4">
-                  <label for="name" class="text-base font-bold text-primary dark:text-darkPrimary">Nama</label>
-                  <input type="text" id="name" name="nama" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary dark:focus:ring-dartext-darkPrimary" />
+              <div class="rate-right-form">
+                <div class="rate-right-form-isi">
+                  <label for="name" class="rate-right-form-nama">Nama</label>
+                  <input type="text" id="name" name="nama" class="rate-right-form-input" />
                 </div>
-                <div class="mb-8 w-full px-4">
-                  <label for="email" class="text-base font-bold text-primary dark:text-darkPrimary">Email</label>
-                  <input type="email" id="email" name="email" class="w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary focus:dark:ring-dartext-darkPrimary" />
+                <div class="rate-right-form-isi">
+                  <label for="email" class="rate-right-form-nama">Email</label>
+                  <input type="email" id="email" name="email" class="rate-right-form-input" />
                 </div>
-                <div class="mb-8 w-full px-4">
-                  <label for="pesan" class="text-base font-bold text-primary dark:text-darkPrimary">Pesan</label>
-                  <textarea type="text" id="pesan" name="pesan" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary focus:dark:ring-dartext-darkPrimary"></textarea>
+                <div class="rate-right-form-isi">
+                  <label for="pesan" class="rate-right-form-nama">Pesan</label>
+                  <textarea type="text" id="pesan" name="pesan" class="h-32 rate-right-form-input"></textarea>
                 </div>
-                <div class="w-full px-4">
-                  <button id="kirim" class="w-full rounded-full bg-primary py-3 text-white hover:bg-teal-600 dark:bg-darkPrimary hover:dark:bg-[#653a5c]" type="submit">Kirim</button>
+                <div class="rate-right-button">
+                  <button id="kirim" class="rate-right-button-kirim" type="submit">Kirim</button>
                 </div>
               </div>
             </form>
           </div>
+
         </div>
       </section>
       <!-- rate end -->
 
       <!-- footer start -->
-      <footer class=" bg-slate-800 dark:bg-dark2 pt-24 pb-12">
+      <footer class="footer-parent">
         <div class="container">
-          <div class="items-center justify-center md:flex">
-            <div class="mb-12 w-full px-4 font-medium text-slate-300 md:max-w-xs">
-              <h2 class="mb-5 text-4xl font-bold text-darkPrimary">Difhaels</h2>
+          <div class="footer-flex">
+            <div class="footer-left">
+              <h2 class="footer-left-name">Difhaels</h2>
               <p>agungzeroenemy@gmail.com</p>
               <p>Bogor, cileungsi</p>
             </div>
-            <div class="mb-12 w-full md:max-w-xs">
-              <div class="mb-5 flex items-center justify-center">
+            <div class="footer-right">
+              <div class="footer-right-sosmed">
                 <!-- whatsapp -->
-                <a href="https://wa.me/+62895337305533" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                <a href="https://wa.me/+62895337305533" target="_blank" class="footer-right-sosmed-icon">
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>WhatsApp</title>
                     <path
@@ -440,7 +441,7 @@
                 <a
                   href="https://www.instagram.com/difhaels/?hl=id"
                   target="_blank"
-                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  class="footer-right-sosmed-icon"
                 >
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Instagram</title>
@@ -454,7 +455,7 @@
                 <a
                   href="https://www.facebook.com/profile.php?id=100038309832831"
                   target="_blank"
-                  class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  class="footer-right-sosmed-icon"
                 >
                   <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Facebook</title>
@@ -466,7 +467,7 @@
               </div>
             </div>
           </div>
-          <p class="pt-7 text-center text-xs font-medium text-slate-500">Dibuat dengan <span class="text-pink-500">❤️</span> oleh <a href="https://instagram.com/difhaels" target="_blank" class="font-bold text-primary">Agung Saputra</a></p>
+          <p class="footer-dibuat">Dibuat dengan 💖 oleh <a href="https://instagram.com/difhaels" target="_blank" class="footer-name">Agung Saputra</a></p>
         </div>
       </footer>
       <!-- footer end -->
