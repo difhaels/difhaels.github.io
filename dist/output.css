@@ -772,14 +772,6 @@ video {
   width: 0.75rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
 .w-\[700px\] {
   width: 700px;
 }
@@ -1029,10 +1021,6 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-10 {
