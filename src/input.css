@@ -129,8 +129,8 @@ body {
 }
 /* About end */
 
-/* Skill Start */
-.skill-parent {
+/* Sertifikat Start */
+.sertifikat-parent {
   @apply bg-slate-300 py-10 sm:py-28 dark:bg-dark3;
 }
 .skill-text-1 {
@@ -148,7 +148,7 @@ body {
 .skill-icon {
   @apply transition hover:-translate-y-5 hover:scale-110 duration-100 w-[100px] h-[100px];
 }  
-/*  Skill End */
+/*  Sertifikat End */
 
 /*  Portfolio Start */
 .portfolio-parent {
