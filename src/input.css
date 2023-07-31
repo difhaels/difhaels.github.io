@@ -133,56 +133,43 @@ body {
 .sertifikat-parent {
   @apply bg-slate-300 py-10 sm:py-28 dark:bg-dark3;
 }
-.skill-text-1 {
-  @apply font-bold text-primary dark:text-darkPrimary text-center;
-}
-.skill-text-2 {
-  @apply text-center text-2xl font-bold text-dark dark:text-white;
-}
-.skill-text-3 {
-  @apply text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-10;
-}
-.skill-flex-icon {
-  @apply flex justify-center items-center gap-5 mx-5 flex-wrap;
-}
-.skill-icon {
-  @apply transition hover:-translate-y-5 hover:scale-110 duration-100 w-[100px] h-[100px];
-}  
-/*  Sertifikat End */
-
-/*  Portfolio Start */
-.portfolio-parent {
-  @apply py-10 sm:py-28 dark:bg-dark;
-}
-.portfolio-text {
+.sertifikat-text {
   @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary;
 }
-.portfolio-text-1 {
-  @apply text-2xl font-bold text-dark dark:text-white;
-}
-.portfolio-text-2 {
+.sertifikat-text-1 {
   @apply text-base font-medium text-slate-500 dark:text-slate-400;
 }
-.portfolio-project-flex {
-  @apply flex flex-wrap justify-center gap-3 lg:gap-10;
-}
-.portfolio-project {
-  @apply mt-10 px-7 lg:max-w-lg lg:px-0;
-}
-.portfolio-project-title {
-  @apply mt-3 text-base font-bold text-dark dark:text-darkPrimary;
-}
-.portfolio-project-github {
-  @apply text-base text-slate-500 dark:text-slate-400;
-}
-.portfolio-sertifikat-flex {
+.sertifikat-flex {
   @apply flex flex-wrap justify-center items-center gap-5 mb-10;
 }
-.portfolio-sertifikat {
+.sertifikat {
   @apply w-56 flex justify-start items-center bg-slate-200 transition hover:-translate-y-5 hover:scale-110 duration-100 shadow-xl dark:bg-darkPrimary dark:text-white;
 }
+/*  Sertifikat End */
 
-/*  Portfolio End */
+/*  project Start */
+.project-parent {
+  @apply py-10 sm:py-28 dark:bg-dark;
+}
+.project-text {
+  @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary;
+}
+.project-text-1 {
+  @apply text-base font-medium text-slate-500 dark:text-slate-400;
+}
+.project-project-flex {
+  @apply flex flex-wrap justify-center gap-3 lg:gap-10;
+}
+.project-project {
+  @apply mt-10 px-7 lg:max-w-lg lg:px-0;
+}
+.project-project-title {
+  @apply mt-3 text-base font-bold text-dark dark:text-darkPrimary;
+}
+.project-project-github {
+  @apply text-base text-slate-500 dark:text-slate-400;
+}
+/*  project End */
 
 /*  Rate Start */
 .rate-parent {
