@@ -171,72 +171,65 @@ body {
 }
 /*  project End */
 
-/*  Rate Start */
-.rate-parent {
+/*  rating Start */
+.rating-parent {
   @apply py-10 sm:py-28 bg-slate-300 dark:bg-dark3;
 }
-.rate-text {
+.rating-text {
   @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary text-center;
 }
-.rate-text-1 {
-  @apply text-2xl font-bold text-dark dark:text-white text-center;
-}
-.rate-text-2 {
+.rating-text-1 {
   @apply text-base font-medium text-slate-500 dark:text-slate-400 text-center pb-16;
 }
-.rate-flex {
+.rating-flex {
   @apply container flex flex-wrap;
 }
-.rate-left {
+.rating-left {
   @apply w-full lg:w-1/2 flex flex-wrap gap-3 lg:gap-10 justify-center lg:justify-end;
 }
-.rate-left-comment {
+.rating-left-comment {
   @apply bg-white w-72 lg:w-64 h-44 rounded-t-xl rounded-b-xl shadow-xl;
 }
-.rate-left-profil {
+.rating-left-profil {
   @apply flex items-center gap-3 text-xl px-3 pt-3 pb-1 border-b-2;
 }
-.rate-left-img {
+.rating-left-img {
   @apply w-5 h-5 rounded-full;
 }
-.rate-left-star {
+.rating-left-star {
   @apply w-3 h-3;
 }
-.rate-right {
+.rating-right {
   @apply w-full lg:w-1/2;
 }
-.rate-right-text {
+.rating-right-text {
   @apply mx-auto mb-7 max-w-xl text-center;
 }
-.rate-right-text-kontak {
+.rating-right-text-kontak {
   @apply pt-10 font-bold uppercase text-primary dark:text-darkPrimary;
 }
-.rate-right-text-hubungi {
-  @apply text-2xl font-bold text-dark dark:text-white;
-}
-.rate-right-text-saran {
+.rating-right-text-saran {
   @apply text-base font-medium text-slate-500 dark:text-slate-400;
 }
-.rate-right-form {
+.rating-right-form {
   @apply w-full lg:mx-auto lg:w-2/3;
 }
-.rate-right-form-isi {
+.rating-right-form-isi {
   @apply mb-8 w-full px-4
 }
-.rate-right-form-nama {
+.rating-right-form-nama {
   @apply text-base font-bold text-primary dark:text-darkPrimary;
 }
-.rate-right-form-input {
+.rating-right-form-input {
   @apply w-full rounded-md bg-slate-200 p-3 text-dark focus:outline-none focus:ring focus:ring-primary;
 }
-.rate-right-button {
+.rating-right-button {
   @apply w-full px-4;
 }
-.rate-right-button-kirim {
+.rating-right-button-kirim {
   @apply w-full rounded-full bg-primary py-3 text-white hover:bg-teal-600 dark:bg-darkPrimary hover:dark:bg-[#653a5c];
 }
-
-/*  Rate End */
+/*  rating End */
 
 /*  Footer Start */
 .footer-parent {

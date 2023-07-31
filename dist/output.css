@@ -1521,28 +1521,28 @@ body {
 
 /*  project End */
 
-/*  Rate Start */
+/*  rating Start */
 
-.rate-parent {
+.rating-parent {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 
-.dark .rate-parent {
+.dark .rating-parent {
   --tw-bg-opacity: 1;
   background-color: rgb(17 45 78 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
-  .rate-parent {
+  .rating-parent {
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
 }
 
-.rate-text {
+.rating-text {
   padding-top: 2.5rem;
   text-align: center;
   font-weight: 700;
@@ -1551,26 +1551,12 @@ body {
   color: rgb(90 150 227 / var(--tw-text-opacity));
 }
 
-.dark .rate-text {
+.dark .rating-text {
   --tw-text-opacity: 1;
   color: rgb(233 69 96 / var(--tw-text-opacity));
 }
 
-.rate-text-1 {
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(22 33 62 / var(--tw-text-opacity));
-}
-
-.dark .rate-text-1 {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.rate-text-2 {
+.rating-text-1 {
   padding-bottom: 4rem;
   text-align: center;
   font-size: 1rem;
@@ -1580,12 +1566,12 @@ body {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
-.dark .rate-text-2 {
+.dark .rating-text-1 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
-.rate-flex {
+.rating-flex {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -1594,41 +1580,41 @@ body {
 }
 
 @media (min-width: 640px) {
-  .rate-flex {
+  .rating-flex {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .rate-flex {
+  .rating-flex {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  .rate-flex {
+  .rating-flex {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .rate-flex {
+  .rating-flex {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1320px) {
-  .rate-flex {
+  .rating-flex {
     max-width: 1320px;
   }
 }
 
-.rate-flex {
+.rating-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-.rate-left {
+.rating-left {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -1637,14 +1623,14 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .rate-left {
+  .rating-left {
     width: 50%;
     justify-content: flex-end;
     gap: 2.5rem;
   }
 }
 
-.rate-left-comment {
+.rating-left-comment {
   height: 11rem;
   width: 18rem;
   border-top-left-radius: 0.75rem;
@@ -1659,12 +1645,12 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .rate-left-comment {
+  .rating-left-comment {
     width: 16rem;
   }
 }
 
-.rate-left-profil {
+.rating-left-profil {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -1677,28 +1663,28 @@ body {
   line-height: 1.75rem;
 }
 
-.rate-left-img {
+.rating-left-img {
   height: 1.25rem;
   width: 1.25rem;
   border-radius: 9999px;
 }
 
-.rate-left-star {
+.rating-left-star {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.rate-right {
+.rating-right {
   width: 100%;
 }
 
 @media (min-width: 1024px) {
-  .rate-right {
+  .rating-right {
     width: 50%;
   }
 }
 
-.rate-right-text {
+.rating-right-text {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.75rem;
@@ -1706,7 +1692,7 @@ body {
   text-align: center;
 }
 
-.rate-right-text-kontak {
+.rating-right-text-kontak {
   padding-top: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1714,25 +1700,12 @@ body {
   color: rgb(90 150 227 / var(--tw-text-opacity));
 }
 
-.dark .rate-right-text-kontak {
+.dark .rating-right-text-kontak {
   --tw-text-opacity: 1;
   color: rgb(233 69 96 / var(--tw-text-opacity));
 }
 
-.rate-right-text-hubungi {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(22 33 62 / var(--tw-text-opacity));
-}
-
-.dark .rate-right-text-hubungi {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.rate-right-text-saran {
+.rating-right-text-saran {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
@@ -1740,31 +1713,31 @@ body {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
-.dark .rate-right-text-saran {
+.dark .rating-right-text-saran {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
-.rate-right-form {
+.rating-right-form {
   width: 100%;
 }
 
 @media (min-width: 1024px) {
-  .rate-right-form {
+  .rating-right-form {
     margin-left: auto;
     margin-right: auto;
     width: 66.666667%;
   }
 }
 
-.rate-right-form-isi {
+.rating-right-form-isi {
   margin-bottom: 2rem;
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.rate-right-form-nama {
+.rating-right-form-nama {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
@@ -1772,12 +1745,12 @@ body {
   color: rgb(90 150 227 / var(--tw-text-opacity));
 }
 
-.dark .rate-right-form-nama {
+.dark .rating-right-form-nama {
   --tw-text-opacity: 1;
   color: rgb(233 69 96 / var(--tw-text-opacity));
 }
 
-.rate-right-form-input {
+.rating-right-form-input {
   width: 100%;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
@@ -1787,7 +1760,7 @@ body {
   color: rgb(22 33 62 / var(--tw-text-opacity));
 }
 
-.rate-right-form-input:focus {
+.rating-right-form-input:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1797,13 +1770,13 @@ body {
   --tw-ring-color: rgb(90 150 227 / var(--tw-ring-opacity));
 }
 
-.rate-right-button {
+.rating-right-button {
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.rate-right-button-kirim {
+.rating-right-button-kirim {
   width: 100%;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
@@ -1814,22 +1787,22 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.rate-right-button-kirim:hover {
+.rating-right-button-kirim:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
 
-.dark .rate-right-button-kirim {
+.dark .rating-right-button-kirim {
   --tw-bg-opacity: 1;
   background-color: rgb(233 69 96 / var(--tw-bg-opacity));
 }
 
-.dark .rate-right-button-kirim:hover {
+.dark .rating-right-button-kirim:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(101 58 92 / var(--tw-bg-opacity));
 }
 
-/*  Rate End */
+/*  rating End */
 
 /*  Footer Start */
 
