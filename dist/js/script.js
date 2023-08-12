@@ -16,7 +16,9 @@ const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector("#nav-menu");
 hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
+  console.log(hamburger);
   navMenu.classList.toggle("hidden");
+  console.log(navMenu);
 });
 
 // klik diluar hamburger

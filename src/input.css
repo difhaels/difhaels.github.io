@@ -61,10 +61,10 @@ body {
   /* header mobile mode end */
   
   /* header desktop mode start */
-  .head-desktop {
-    @apply absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-slate-300 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:bg-transparent lg:shadow-none;
+  .navigation {
+    @apply absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-slate-300 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:bg-transparent lg:shadow-none;
   }
-  .head-desktop-li {
+  .navigation-li {
     @apply mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:dark:text-darkPrimary;
   }
   /* header desktop mode end */

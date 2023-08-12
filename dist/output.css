@@ -999,11 +999,10 @@ body {
 
 /* header desktop mode start */
 
-.head-desktop {
+.navigation {
   position: absolute;
   right: 1rem;
   top: 100%;
-  display: none;
   width: 100%;
   max-width: 250px;
   border-radius: 0.5rem;
@@ -1017,7 +1016,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .head-desktop {
+  .navigation {
     position: static;
     display: block;
     max-width: 100%;
@@ -1028,7 +1027,7 @@ body {
   }
 }
 
-.head-desktop-li {
+.navigation-li {
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
@@ -1040,13 +1039,13 @@ body {
   color: rgb(22 33 62 / var(--tw-text-opacity));
 }
 
-.group:hover .head-desktop-li {
+.group:hover .navigation-li {
   --tw-text-opacity: 1;
   color: rgb(90 150 227 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
-  .dark .head-desktop-li {
+  .dark .navigation-li {
     --tw-text-opacity: 1;
     color: rgb(233 69 96 / var(--tw-text-opacity));
   }
