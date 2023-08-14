@@ -27,6 +27,33 @@ window.addEventListener("click", function (e) {
   }
 });
 
+// fitur projek
+const fiturImage = document.querySelector(".fitur-image");
+const fitur = document.querySelector(".fitur");
+fiturImage.addEventListener("click", () => {
+  fitur.classList.remove("-z-10");
+})
+fitur.addEventListener("click", () => {
+  fitur.classList.add("-z-10");
+})
+
+const fiturImage1 = document.querySelector(".fitur-image1");
+const fitur1 = document.querySelector(".fitur1");
+fiturImage1.addEventListener("click", () => {
+  fitur1.classList.remove("-z-10");
+})
+fitur1.addEventListener("click", () => {
+  fitur1.classList.add("-z-10");
+})
+
+const fiturImage2 = document.querySelector(".fitur-image2");
+const fitur2 = document.querySelector(".fitur2");
+fiturImage2.addEventListener("click", () => {
+  fitur2.classList.remove("-z-10");
+})
+fitur2.addEventListener("click", () => {
+  fitur2.classList.add("-z-10");
+})
 // submit
 const submit = document.querySelector("#kirim");
 submit.addEventListener("click", () => alert("Terkirim 👌"));
