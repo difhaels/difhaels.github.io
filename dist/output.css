@@ -1453,6 +1453,7 @@ body {
 }
 
 .project-text-1 {
+  margin-bottom: 2.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
@@ -1479,7 +1480,6 @@ body {
 }
 
 .project-project {
-  margin-top: 2.5rem;
   padding-left: 1.75rem;
   padding-right: 1.75rem;
 }
