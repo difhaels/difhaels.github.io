@@ -775,6 +775,11 @@ video {
   background-color: rgb(90 150 227 / var(--tw-bg-opacity));
 }
 
+.bg-amber-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 83 9 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
