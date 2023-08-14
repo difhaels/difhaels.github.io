@@ -1948,8 +1948,18 @@ body {
   background-color: rgb(22 33 62 / var(--tw-bg-opacity));
 }
 
+.dark .dark\:bg-dark3 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 45 78 / var(--tw-bg-opacity));
+}
+
 .dark .dark\:fill-darkPrimary {
   fill: #E94560;
+}
+
+.dark .dark\:text-darkPrimary {
+  --tw-text-opacity: 1;
+  color: rgb(233 69 96 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
